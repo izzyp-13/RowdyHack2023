@@ -29,17 +29,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>No Unknown</title>
+        <title>Know Unknown</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
-       <h1>No Unknown</h1>
+       <h1>Know Unknown</h1>
 
-       <Row className='pt-4 px-4'>
+       <Row className='pt-4 px-4' id=''>
                 <Col xs = {3}>
                     <Card style={{  }}>             
                     <Image src={astronomy} width={300} height={150} />
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
                     <Card.Title style={{fontSize: '2rem'}}>Learn about space</Card.Title>
                     <Card.Text>
                         You think you know space?
@@ -62,8 +62,8 @@ export default function Home() {
                 <Col xs = {3}>
                     <Card style={{ }}>             
                     <Image src={forest} width={300} height={150}/>
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
-                    <Card.Title>Learn about space</Card.Title>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
+                    <Card.Title style={{fontSize: '2rem'}}>Learn about forests</Card.Title>
                     <Card.Text>
                         Try some trivia about forests.
                     </Card.Text>
@@ -85,8 +85,8 @@ export default function Home() {
                 <Col xs = {3}>
                 <Card style={{  }}>
                 <Image src={ocean} width={300} height={150} />
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
-                    <Card.Title>Learn about the ocean</Card.Title>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
+                    <Card.Title style={{fontSize: '2rem'}}>Learn about oceans</Card.Title>
                     <Card.Text>
                         Try some trivia about the ocean.
                     </Card.Text>
@@ -109,8 +109,8 @@ export default function Home() {
                 <Card style={{  }}>
                 <Image src={cave} width={300} height={150}/>
                 
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
-                    <Card.Title>Learn about caves</Card.Title>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
+                    <Card.Title style={{fontSize: '2rem'}}>Learn about caves</Card.Title>
                     <Card.Text>
                         How much do you know about caves?
                     </Card.Text>
