@@ -131,7 +131,7 @@ export default function Home() {
             </Row>
             <Row>
               <Col>
-              <h1 style={{color:"#FFFFFF"}}>Interested in playing on mobile? Text +1 434-425-8930</h1>
+              <h1 style={{color:"#FFFFFF"}}>Choose a topic then a difficulty to play!</h1>
               </Col>
             </Row>
 
