@@ -46,13 +46,11 @@ export default function Home() {
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Start game</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -69,13 +67,11 @@ export default function Home() {
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Start game</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -116,13 +112,11 @@ export default function Home() {
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Start game</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
