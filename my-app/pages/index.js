@@ -129,6 +129,11 @@ export default function Home() {
                     </Card>
                 </Col>
             </Row>
+            <Row>
+              <Col>
+              <h1 style={{color:"#FFFFFF"}}>Interested in playing on mobile? Text +1 434-425-8930</h1>
+              </Col>
+            </Row>
 
       </main>
     </>
