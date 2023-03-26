@@ -46,13 +46,11 @@ export default function Home() {
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Start</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -69,13 +67,11 @@ export default function Home() {
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Play</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -92,13 +88,11 @@ export default function Home() {
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Play</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -116,13 +110,11 @@ export default function Home() {
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Play</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -131,7 +123,8 @@ export default function Home() {
             </Row>
             <Row>
               <Col>
-              <h1 style={{color:"#FFFFFF"}}>Choose a topic then a difficulty to play!</h1>
+              <h1 style={{color:"#FFFFFF"}}>Choose a topic to play!</h1>
+
               </Col>
             </Row>
 
