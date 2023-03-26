@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>No Unknown</title>
+        <title>Know Unknown</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
@@ -123,7 +123,8 @@ export default function Home() {
             </Row>
             <Row>
               <Col>
-              <h1 style={{color:"#FFFFFF"}}>Choose a topic then click play!</h1>
+              <h1 style={{color:"#FFFFFF"}}>Choose a topic to play!</h1>
+
               </Col>
             </Row>
 
