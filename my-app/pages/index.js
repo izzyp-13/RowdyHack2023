@@ -21,14 +21,6 @@ import { ListGroup, ListGroupFlush, ListGroupItem } from 'react-bootstrap/ListGr
 const inter = Inter({ subsets: ['cyrillic'] });
 
 
-const cardStyle = {
-  width: '18rem',
-  height: '500px',
-  backgroundcolor: '#F05A22'
-};
-
-
-
 const imageStyle = {
 
 };
@@ -45,10 +37,10 @@ export default function Home() {
 
        <Row className='pt-4 px-4'>
                 <Col xs = {3}>
-                    <Card style={{ cardStyle }}>             
-                    <Image src={astronomy} />
-                    <Card.Body>
-                    <Card.Title>Learn about space</Card.Title>
+                    <Card style={{  }}>             
+                    <Image src={astronomy} width={300} height={150} />
+                    <Card.Body style={{width: '18rem', height: '8rem'}}>
+                    <Card.Title style={{fontSize: '2rem'}}>Learn about space</Card.Title>
                     <Card.Text>
                         You think you know space?
                     </Card.Text>
@@ -57,9 +49,9 @@ export default function Home() {
                 </Col>
 
                 <Col xs = {3}>
-                    <Card style={{ cardStyle }}>             
-                    <Image src={forest} />
-                    <Card.Body>
+                    <Card style={{ }}>             
+                    <Image src={forest} width={300} height={150}/>
+                    <Card.Body style={{width: '18rem', height: '8rem'}}>
                     <Card.Title>Learn about space</Card.Title>
                     <Card.Text>
                         Try some trivia about forests.
@@ -69,9 +61,9 @@ export default function Home() {
                 </Col>
 
                 <Col xs = {3}>
-                <Card style={{ cardStyle }}>
-                <Image src={ocean} />
-                    <Card.Body>
+                <Card style={{  }}>
+                <Image src={ocean} width={300} height={150} />
+                    <Card.Body style={{width: '18rem', height: '8rem'}}>
                     <Card.Title>Learn about the ocean</Card.Title>
                     <Card.Text>
                         Try some trivia about the ocean.
@@ -81,10 +73,10 @@ export default function Home() {
                 </Col>
 
                 <Col xs = {3}>
-                <Card style={{ cardStyle }}>
+                <Card style={{  }}>
                 <Image src={cave} width={300} height={150}/>
                 
-                    <Card.Body>
+                    <Card.Body style={{width: '18rem', height: '8rem'}}>
                     <Card.Title>Learn about caves</Card.Title>
                     <Card.Text>
                         How much do you know about caves?
