@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Dropdown from 'react-bootstrap/Dropdown';
 import astronomy from '../public/image/download.jpg'
 import cave from '../public/image/caves.jpg'
 import ocean from '../public/image/ocean.jpg'
 import forest from '/public/image/forest.jpg'
-
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
@@ -36,11 +36,11 @@ export default function Home() {
        <h1>No Unknown</h1>
 
        <Row className='pt-4 px-4'>
-                <Col xs = {3}>
-                    <Card style={{  }}>             
-                    <Image src={astronomy} width={300} height={150} />
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
-                    <Card.Title style={{fontSize: '2rem'}}>Learn about space</Card.Title>
+                <Col>
+                    <Card style={{ width: '18rem' }}>             
+                    <Card.Img variant="top" src={astronomy} />
+                    <Card.Body>
+                    <Card.Title>Learn about space</Card.Title>
                     <Card.Text>
                         You think you know space?
                     </Card.Text>
@@ -48,10 +48,10 @@ export default function Home() {
                     </Card>
                 </Col>
 
-                <Col xs = {3}>
-                    <Card style={{ }}>             
-                    <Image src={forest} width={300} height={150}/>
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
+                <Col>
+                    <Card style={{ width: '18rem' }}>             
+                    <Card.Img variant="top" src={forest} />
+                    <Card.Body>
                     <Card.Title>Learn about space</Card.Title>
                     <Card.Text>
                         Try some trivia about forests.
@@ -60,10 +60,10 @@ export default function Home() {
                     </Card>
                 </Col>
 
-                <Col xs = {3}>
-                <Card style={{  }}>
-                <Image src={ocean} width={300} height={150} />
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
+                <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={ocean} /> 
+                    <Card.Body>
                     <Card.Title>Learn about the ocean</Card.Title>
                     <Card.Text>
                         Try some trivia about the ocean.
@@ -72,11 +72,10 @@ export default function Home() {
                     </Card>
                 </Col>
 
-                <Col xs = {3}>
-                <Card style={{  }}>
-                <Image src={cave} width={300} height={150}/>
-                
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
+                <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={cave} /> 
+                    <Card.Body>
                     <Card.Title>Learn about caves</Card.Title>
                     <Card.Text>
                         How much do you know about caves?
