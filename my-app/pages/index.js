@@ -38,9 +38,9 @@ export default function Home() {
        <Row className='pt-4 px-4' id=''>
                 <Col xs = {3}>
                     <Card style={{  }}>             
-                    <Image src={astronomy} width={300} height={150} />
+                    <Image src={astronomy} width={280} height={150} />
                     <Card.Body style={{width: '20rem', height: '10.25rem'}}>
-                    <Card.Title style={{fontSize: '2rem'}}>Learn about space</Card.Title>
+                    <Card.Title style={{fontSize: 30}}>Learn about space</Card.Title>
                     <Card.Text>
                         You think you know space?
                     </Card.Text>
@@ -59,9 +59,9 @@ export default function Home() {
 
                 <Col xs = {3}>
                     <Card style={{ }}>             
-                    <Image src={forest} width={300} height={150}/>
+                    <Image src={forest} width={280} height={150}/>
                     <Card.Body style={{width: '20rem', height: '10.25rem'}}>
-                    <Card.Title style={{fontSize: '2rem'}}>Learn about forests</Card.Title>
+                    <Card.Title style={{fontSize: 30}}>Learn about forests</Card.Title>
                     <Card.Text>
                         Try some trivia about forests.
                     </Card.Text>
@@ -80,9 +80,9 @@ export default function Home() {
 
                 <Col xs = {3}>
                 <Card style={{  }}>
-                <Image src={ocean} width={300} height={150} />
+                <Image src={ocean} width={280} height={150} />
                     <Card.Body style={{width: '20rem', height: '10.25rem'}}>
-                    <Card.Title style={{fontSize: '2rem'}}>Learn about oceans</Card.Title>
+                    <Card.Title style={{fontSize: 30}}>Learn about oceans</Card.Title>
                     <Card.Text>
                         Try some trivia about the ocean.
                     </Card.Text>
@@ -101,12 +101,12 @@ export default function Home() {
 
                 <Col xs = {3}>
                 <Card style={{  }}>
-                <Image src={cave} width={300} height={150}/>
+                <Image src={cave} width={280} height={150}/>
                 
                     <Card.Body style={{width: '20rem', height: '10.25rem'}}>
-                    <Card.Title style={{fontSize: '2rem'}}>Learn about caves</Card.Title>
+                    <Card.Title style={{fontSize: 30}}>Learn about caves</Card.Title>
                     <Card.Text>
-                        How much do you know about caves?
+                        What do you know about caves?
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
