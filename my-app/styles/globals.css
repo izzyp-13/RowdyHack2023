@@ -100,6 +100,12 @@ a {
   text-decoration: none;
 }
 
+.img-container1{
+  width: '18rem';
+  height: '500px';
+  background-color: '#F05A22';
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

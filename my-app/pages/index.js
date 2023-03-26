@@ -20,6 +20,19 @@ import { ListGroup, ListGroupFlush, ListGroupItem } from 'react-bootstrap/ListGr
 
 const inter = Inter({ subsets: ['cyrillic'] });
 
+
+const cardStyle = {
+  width: '18rem',
+  height: '500px',
+  backgroundcolor: '#F05A22'
+};
+
+
+
+const imageStyle = {
+
+};
+
 export default function Home() {
   return (
     <>
@@ -31,9 +44,9 @@ export default function Home() {
        <h1>No Unknown</h1>
 
        <Row className='pt-4 px-4'>
-                <Col>
-                    <Card style={{ width: '18rem' }}>             
-                    <Card.Img variant="top" src={astronomy} />
+                <Col xs = {3}>
+                    <Card style={{ cardStyle }}>             
+                    <Image src={astronomy} />
                     <Card.Body>
                     <Card.Title>Learn about space</Card.Title>
                     <Card.Text>
@@ -43,9 +56,9 @@ export default function Home() {
                     </Card>
                 </Col>
 
-                <Col>
-                    <Card style={{ width: '18rem' }}>             
-                    <Card.Img variant="top" src={forest} />
+                <Col xs = {3}>
+                    <Card style={{ cardStyle }}>             
+                    <Image src={forest} />
                     <Card.Body>
                     <Card.Title>Learn about space</Card.Title>
                     <Card.Text>
@@ -55,9 +68,9 @@ export default function Home() {
                     </Card>
                 </Col>
 
-                <Col>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={ocean} /> 
+                <Col xs = {3}>
+                <Card style={{ cardStyle }}>
+                <Image src={ocean} />
                     <Card.Body>
                     <Card.Title>Learn about the ocean</Card.Title>
                     <Card.Text>
@@ -67,9 +80,10 @@ export default function Home() {
                     </Card>
                 </Col>
 
-                <Col>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={cave} /> 
+                <Col xs = {3}>
+                <Card style={{ cardStyle }}>
+                <Image src={cave} width={300} height={150}/>
+                
                     <Card.Body>
                     <Card.Title>Learn about caves</Card.Title>
                     <Card.Text>
