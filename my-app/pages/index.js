@@ -4,7 +4,7 @@ import astronomy from '../public/image/download.jpg'
 import cave from '../public/image/caves.jpg'
 import ocean from '../public/image/ocean.jpg'
 import forest from '/public/image/forest.jpg'
-
+import Dropdown from 'react-bootstrap/Dropdown'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
@@ -44,6 +44,17 @@ export default function Home() {
                     <Card.Text>
                         You think you know space?
                     </Card.Text>
+                    <Dropdown>
+                      <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Choose your difficulty
+                      </Dropdown.Toggle>
+
+                      <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
                     </Card.Body>
                     </Card>
                 </Col>
@@ -56,6 +67,17 @@ export default function Home() {
                     <Card.Text>
                         Try some trivia about forests.
                     </Card.Text>
+                    <Dropdown>
+                      <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Choose your difficulty
+                      </Dropdown.Toggle>
+
+                      <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
                     </Card.Body>
                     </Card>
                 </Col>
@@ -68,6 +90,17 @@ export default function Home() {
                     <Card.Text>
                         Try some trivia about the ocean.
                     </Card.Text>
+                    <Dropdown>
+                      <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Choose your difficulty
+                      </Dropdown.Toggle>
+
+                      <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
                     </Card.Body>
                     </Card>
                 </Col>
@@ -80,7 +113,18 @@ export default function Home() {
                     <Card.Title>Learn about caves</Card.Title>
                     <Card.Text>
                         How much do you know about caves?
-                    </Card.Text> 
+                    </Card.Text>
+                    <Dropdown>
+                      <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Choose your difficulty
+                      </Dropdown.Toggle>
+
+                      <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
                     </Card.Body>
                     </Card>
                 </Col>
