@@ -33,24 +33,24 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
-       <h1>No Unknown</h1>
+       <h1>Know Unknown</h1>
 
-       <Row className='pt-4 px-4'>
+       <Row className='pt-4 px-4' id=''>
                 <Col xs = {3}>
                     <Card style={{  }}>             
                     <Image src={astronomy} width={300} height={150} />
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
                     <Card.Title style={{fontSize: '2rem'}}>Learn about space</Card.Title>
                     <Card.Text>
                         You think you know space?
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Play
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Start game</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Start</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -60,18 +60,18 @@ export default function Home() {
                 <Col xs = {3}>
                     <Card style={{ }}>             
                     <Image src={forest} width={300} height={150}/>
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
-                    <Card.Title>Learn about space</Card.Title>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
+                    <Card.Title style={{fontSize: '2rem'}}>Learn about forests</Card.Title>
                     <Card.Text>
                         Try some trivia about forests.
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Play
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Start game</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Play</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -81,20 +81,18 @@ export default function Home() {
                 <Col xs = {3}>
                 <Card style={{  }}>
                 <Image src={ocean} width={300} height={150} />
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
-                    <Card.Title>Learn about the ocean</Card.Title>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
+                    <Card.Title style={{fontSize: '2rem'}}>Learn about oceans</Card.Title>
                     <Card.Text>
                         Try some trivia about the ocean.
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Choose your difficulty
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Easy</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Medium</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Hard</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Play</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
@@ -105,23 +103,28 @@ export default function Home() {
                 <Card style={{  }}>
                 <Image src={cave} width={300} height={150}/>
                 
-                    <Card.Body style={{width: '18rem', height: '8rem'}}>
-                    <Card.Title>Learn about caves</Card.Title>
+                    <Card.Body style={{width: '20rem', height: '10.25rem'}}>
+                    <Card.Title style={{fontSize: '2rem'}}>Learn about caves</Card.Title>
                     <Card.Text>
                         How much do you know about caves?
                     </Card.Text>
                     <Dropdown>
                       <Dropdown.Toggle variant="success" id="dropdown-basic">
-                        Play
+                        Play Game
                       </Dropdown.Toggle>
 
                       <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Start game</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Play</Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
                     </Card.Body>
                     </Card>
                 </Col>
+            </Row>
+            <Row>
+              <Col>
+              <h1 style={{color:"#FFFFFF"}}>Choose a topic then click play!</h1>
+              </Col>
             </Row>
 
       </main>
